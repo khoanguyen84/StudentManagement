@@ -1,0 +1,118 @@
+*, *::before, *::after{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.row{
+    display: block;
+}
+.add-student-area{
+    width: 50%;
+    background-color: lightsteelblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-group{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.form-group>label{
+    display: block;
+}
+
+.form-control{
+    width: 60%;
+    padding:5px 0px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-sm{
+    padding: 5px 5px;
+}
+
+.btn-primary{
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+}
+
+.btn-primary:hover{
+    background-color: #286090;
+    border: 1px solid #204d74;
+}
+
+.btn-success{
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+
+.btn-success:hover{
+    background-color: #449d44;
+    border: 1px solid #398439;
+}
+
+.btn-danger{
+    background-color: #d9534f;
+    border: 1px solid #d43f3a;
+}
+
+.btn-danger:hover{
+    background-color: #c9302c;
+    border: 1px solid #ac2925;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.thead-dark{
+    background-color: #333333;
+    color: white;
+}
+.thead-dark th{
+    padding:20px 0px;
+}
+
+.table td{
+    padding:7px 0px;
+}
+.table>tbody>tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+.table>tbody>tr:hover{
+    background-color: grey;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-sm{
+    width: 60px;
+    height: 60px;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
