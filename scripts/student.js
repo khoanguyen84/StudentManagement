@@ -18,10 +18,10 @@ let students = [];
 function init() {
     if (getLocalStorage(students_key) == null) {
         students = [
-            new Student(1, "Khoa", "10/10/2000", "khoa@gmail.com", true, "images/avatar.jpg"),
-            new Student(2, "Quang", "10/10/2000", "quang@gmail.com", true, "images/avatar.jpg"),
-            new Student(3, "Hiệp", "10/10/2000", "hiep@gmail.com", true, "images/avatar.jpg"),
-            new Student(4, "Phương", "10/10/2000", "phuong@gmail.com", true, "images/avatar.jpg"),
+            new Student(1, "Khoa", "2000-10-10", "khoa@gmail.com", true, "images/avatar.jpg"),
+            new Student(2, "Quang", "2000-10-10", "quang@gmail.com", true, "images/avatar.jpg"),
+            new Student(3, "Hiệp", "2000-10-10", "hiep@gmail.com", true, "images/avatar.jpg"),
+            new Student(4, "Phương", "2000-10-10", "phuong@gmail.com", true, "images/avatar.jpg"),
         ];
         setLocalStorage(students_key, students);
     }
