@@ -10,6 +10,12 @@
 <body>
     <div class="container">
         <div class="row">
+            <div class="message d-none">
+                <p></p>
+                <a href="javascript:;" onclick="closeMessage()">&times;</a>
+            </div>
+        </div>
+        <div class="row">
             <div class="add-student-area">
                 <div class="form-group">
                     <label>Fullname</label>
@@ -38,6 +44,10 @@
             </div>
         </div>
         <div class="row">
+            <ul id="pagination">                
+            </ul>
+        </div>
+        <div class="row">
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
@@ -55,6 +65,7 @@
                 </tbody>
             </table>
         </div>
+        
     </div>
 
     <script src="scripts/student.js"></script>
